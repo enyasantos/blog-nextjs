@@ -5,7 +5,8 @@ export type PostData = {
   title: string
   description: string
   author: string
-  image: string
+  slug: string
+  image_url: string
   visible: boolean
   created_at: string
   updated_at: string
